@@ -1,0 +1,19 @@
+.selections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.selection {
+    width: 33%;
+}
+
+.selection__image {
+    width: 120px;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
