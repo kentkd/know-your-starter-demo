@@ -13,8 +13,8 @@ export const PokemonDetail = ({ id }: PokemonDetailProps) => {
     fetcher,
   );
 
-  if (error) return "error";
-  if (isLoading) return "is loading";
+  if (error) return "oops, something went wrong";
+  if (isLoading) return "loading...";
 
   return (
     <section className="pokemon-details">
