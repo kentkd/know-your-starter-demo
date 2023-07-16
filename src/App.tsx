@@ -8,7 +8,7 @@ function App() {
 
   return (
     <main>
-      <h1>Know your starter</h1>
+      <h1>Know your starters</h1>
     </main>
   )
 }
