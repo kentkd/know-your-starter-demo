@@ -11,17 +11,17 @@ export const Selections = ({ onClick }: SelectionsProps) => {
   const selections = [
     {
       name: "bulbasaur",
-      pokeDexId: 1,
+      id: 1,
       image: bulbasaurImage,
     },
     {
       name: "charmander",
-      pokeDexId: 4,
+      id: 4,
       image: charmanderImage,
     },
     {
       name: "squirtle",
-      pokeDexId: 7,
+      id: 7,
       image: squirtleImage,
     },
   ];
@@ -31,8 +31,9 @@ export const Selections = ({ onClick }: SelectionsProps) => {
       {selections.map((starter) => {
         return (
           <button
+            key={starter.id}
             className="selection"
-            onClick={(event) => onClick(event, starter.pokeDexId)}
+            onClick={(event) => onClick(event, starter.id)}
           >
             <img
               className="selection__image"
