@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.425" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-07-17T15:23:20" tests="0" file="cypress/e2e/main.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="know your starter tests" timestamp="2023-07-17T15:23:20" tests="1" time="2.418" failures="0">
+    <testcase name="know your starter tests should verify all the starting pokemon and its base stats availability" time="1.713" classname="should verify all the starting pokemon and its base stats availability">
+    </testcase>
+  </testsuite>
+</testsuites>
